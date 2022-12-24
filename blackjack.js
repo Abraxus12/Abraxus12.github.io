@@ -83,6 +83,7 @@ function Stay() {
   playerSum = addStuff(playerCards)
   dealerSum = addStuff(dealerCards)
   while (key == 0) {
+    dealerSum = addStuff(dealerCards)
     if (dealerSum > playerSum) {
       document.getElementById('status').innerHTML = "Dealer won with " + dealerSum + " compared to your " + playerSum + ". Please refresh the page to play again."
       document.getElementById('hitBut').disabled = true
