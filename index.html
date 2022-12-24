@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+        <h1>Welcome to Blackjack</h1>
+    </main>
+
+    <p>Instructions: At the start of the game you and the dealer will get two cards. One of the dealer's cards will not be visible.</p>
+    <p>Your goal is to have a higher over number than the dealer; however, if you go over 21, you automatically lose.</p>
+    <p>If you click "Hit Me!", you will draw another card.</p>
+    <p>If you click "Stay!", the dealer will continue to draw cards until it either beats you, ties you, or busts (>21).</p>
+    <p>Notes: Ace is always valued at 1. Jack/Queen/King are valued at 11.</p>
+
+    <button type="button" onclick="startGame()">Start Game!</button>
+    <p id="dealer"></p>
+    <p id="player"></p>
+    <span id="hit"></span> <span id="stay"></span>
+    <p id="status"></p>
+
+	<script src="Blackjack.js"></script>
+  </body>
+</html>
