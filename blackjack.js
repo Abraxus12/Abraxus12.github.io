@@ -36,7 +36,7 @@ function transformCards(hand) {
     if (hand[i] == "Ace") {
       hand[i] = 1
     } else if (hand[i] == "Jack" || hand[i] == "Queen" || hand[i] == "King") {
-      hand[i] = 11
+      hand[i] = 10
     } 
   }
 }
