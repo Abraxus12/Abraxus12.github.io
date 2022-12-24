@@ -59,7 +59,7 @@ function bustChecker(hand, player) {
     if (player == "player") {
       document.getElementById('status').innerHTML = "Bust! You lost with: " + sum + ". Please refresh the page to play again."
     } else {
-      document.getElementById('status').innerHTML = "You win! The dealer busted with: " + sum + ". Please refresh the page to play again."
+      document.getElementById('status').innerHTML = "You win! The dealer busts with: " + sum + ". Please refresh the page to play again."
       key = 1
     }
     // these disable the buttons once the game is over.
