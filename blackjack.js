@@ -1,5 +1,5 @@
 // Create deck of cards - ignore suits for simplicity
-var deck = ["Ace", 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King"]
+var deck = ["Ace", 2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King"]
 
 // Randomizer -- I just found this code online and stole it :3
 function pickACard(arr) {
