@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.table {
+    background: linear-gradient(to top, rgb(111, 99, 146), rgb(174, 162, 211)) no-repeat;
+    height: 90vh;
+    width: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border: 4px solid black;
+}
+
+.dealer{ 
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    height: 30%;
+    width: 100%;
+}
+
+.dealerHand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dealerHand > div {
+    justify-content: space-evenly;
+    margin: 0 .5rem 0 .5rem;
+}
+
+.tableText {
+    width: 100%;
+}
+
+ .title {
+    display: flex;
+    font-family: 'Noto Serif NP Hmong', serif;
+    font-size: 2rem;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.dealer_rules {
+    position: relative;
+    display: flex;
+    color: black;
+    font-family: 'Bitter', serif;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.message {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h2 {
+    color: rgb(155, 119, 165);
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+.player {
+    display: grid;
+    grid-template-rows: 4fr 1.5fr;
+    position: relative;
+    bottom: 0;
+    height: 30%;
+    width: 100%;
+}
+
+.playerHand {
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.playerHand > div {
+    justify-content: space-evenly;
+    margin: 0 .5rem 0 .5rem;
+}
+
+.buttons {
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+button {
+    color: white;
+    font-size: 1.2rem;
+    height: 4rem; 
+    width: 5rem;
+    border-radius: 30%;
+    font-family: 'PT Sans Caption', sans-serif;
+    background-color: rgb(106, 103, 173);
+    border: 2px solid rgb(79, 75, 143);
+    cursor: pointer;
+    box-shadow: 1.5px 5px rgb(62, 59, 112);
+}
+
+button:active {
+    background-color: rgb(79, 76, 133);
+    box-shadow: 0 5px rgb(62, 59, 112);
+    transform: translateY(5px);
+  }
+
+button:disabled {
+    background-color: rgb(79, 76, 133);
+    box-shadow: 0 5px rgb(62, 59, 112);
+    transform: translateY(5px);
+}
+
+.casino {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: .9rem;  
+    color: white; 
+    font-weight: 900;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+}
+
+img {
+    height: 3rem;
+    width: 3rem;
+}
